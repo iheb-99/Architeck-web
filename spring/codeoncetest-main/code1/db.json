@@ -1,0 +1,7 @@
+{
+    "products": [
+        {"id": "1" ,"categorie":"Smart_phone", "quantity": 5},
+        {"id": "2" ,"categorie":"TV", "quantity": 10}
+        
+    ]
+}

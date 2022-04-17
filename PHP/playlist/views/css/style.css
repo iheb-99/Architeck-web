@@ -1,0 +1,110 @@
+body {
+    background-color: #212529;
+}
+nav {
+    border-bottom: white solid 1px;
+
+}
+
+.haut {
+    background: url("../img/background.jpg") center no-repeat;
+    background-size: cover;
+}
+.green {
+    color: green;
+}
+.solo {
+    text-align: center;
+    color: white;
+    line-height: 400px;
+    font-size: 30px;
+}
+.red {
+    color:red;
+}
+i {
+    font-size: 20px;
+}
+select {
+    margin-bottom: 30px;
+}
+h4 {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+.solo a{
+    margin: auto;
+    margin-top: 100px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    width: 300px;
+    border: 1px solid white;
+    background-color: beige;
+    animation: bounce 0.7s ease infinite alternate-reverse;
+    transition-duration: 200ms;
+    border-radius: 20px;
+}
+
+.filter-blanc {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+footer p{
+    text-align: center;
+    line-height: 70px;
+    margin-top: 100px;
+    border-top: 1px solid white;
+    margin-bottom: 0;
+    color: white;
+}
+.solo a:hover {
+    background-color: white;
+    color: black;
+}
+
+@keyframes bounce{
+    from {transform: translateY(0);
+
+    }
+    to   {transform: translateY(-10px);}
+}
+
+.content {
+    min-height: 72vh;
+}
+table {
+    border: 1px solid white;
+}
+tr {
+    background-color: white;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.blanc {
+    color: white;
+}
+form label {
+    font-size: 20px;
+}
+form input {
+    margin-bottom: 30px;
+}
+
+.envoyer {
+    background-color: #212529;
+    border: 1px solid white;
+    font-size: 20px;
+}
+
+.envoyer:hover {
+    background-color: white;
+    color: #212529;
+    border: 1px solid #212529;
+}

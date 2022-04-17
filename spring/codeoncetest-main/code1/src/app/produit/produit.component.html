@@ -1,0 +1,19 @@
+<div>
+    <select [(ngModel)]="selectedLevel" (change)="submit(selectedLevel)">
+        <option label="--select something --"></option>
+        <option  *ngFor= "let c of categorie " value="{{c.name}}"  >{{c.name}}</option>
+      </select>
+</div>
+<div class="row">
+    <div *ngFor="let p of listProduits">
+        <div calss="col-md-3">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Name: {{p.name}}</h5>
+                  <p class="card-text">category: {{p.categorie}}</p>
+                  <p class="card-text">quantity: {{p.quantity}}</p>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
